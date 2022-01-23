@@ -1,0 +1,79 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+
+window {
+    background-color:rgb(240, 240, 240);
+}
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.avatar {
+    min-width: 75px;
+    width: 175px;
+    border-radius: 28px;
+    float:right;
+    padding-top: 5px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Box Model */
+
+.box-model > div {
+    height: 240px;
+    width: 50%;
+    box-sizing: border-box;
+    float:left;
+}
+
+.box-model > div:last-child {
+    padding-right: 20px;
+}
+
+.container {
+    background-color:white;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+
+.social p {
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.table-experience {
+    width: 50%;    
+}
+
+.table-experience th {
+    padding-bottom: 10px;
+}    
+.table-experience td {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.education p {
+    margin-left: 20px;
+}
+
+.bold {
+    font-weight: bold ;
+}
